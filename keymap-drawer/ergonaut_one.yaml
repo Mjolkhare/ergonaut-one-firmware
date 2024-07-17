@@ -1,6 +1,6 @@
 layers:
-  default:
-  - {t: ']', h: Gui}
+  BASE:
+  - ']'
   - Q
   - W
   - E
@@ -12,19 +12,19 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
-  - A
-  - S
-  - D
-  - F
+  - '`'
+  - {t: A, h: Gui}
+  - {t: S, h: Alt}
+  - {t: D, h: Ctrl}
+  - {t: F, h: LSHIFT}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - {t: J, h: Shift}
+  - {t: K, h: Ctrl}
+  - {t: L, h: Alt}
+  - {t: ;, h: Gui}
+  - ''''
+  - '-'
   - Z
   - X
   - C
@@ -35,99 +35,271 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
-  lower:
-  - {t: F1, h: Gui}
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: +, h: Ctrl}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - \
+  - {t: Esc, h: MEDIA}
+  - {t: ␣, h: NAV}
+  - {t: ↹, h: MOUSE}
+  - {t: RETURN, h: SYM}
+  - {t: ⌫, h: NUM}
+  - {t: ⌦, h: FUN}
+  NAV:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Insert
+  - Home
+  - ↑
+  - End
+  - Page Up
+  - ''
+  - ''
+  - Gui
+  - Alt
+  - Ctrl
+  - Shift
+  - ''
+  - {t: Caps Word, s: CAPSLOCK}
+  - ←
+  - ↓
+  - →
+  - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+Gui+ Z
+  - Gui+ V
+  - Gui+ C
+  - Gui+ X
+  - Gui+ Z
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ⏎
+  - BACKSPACE
+  - ⌦
+  MOUSE:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP 8
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT GUI
+  - Alt
+  - Ctrl
+  - LSHIFT
+  - ''
+  - ''
+  - KP 4
+  - KP 2
+  - KP 6
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+Gui+ Z
+  - Gui+ V
+  - Gui+ C
+  - Gui+ X
+  - Gui+ Z
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&mkp MB3'
+  MEDIA:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - VOLUME UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT GUI
+  - Alt
+  - Ctrl
+  - LSHIFT
+  - ''
+  - ''
+  - ⏮️
+  - VOLUME DOWN
+  - ⏭️
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - STOP
+  - ⏯
+  - MUTE
+  NUM:
+  - ''
+  - '['
   - '7'
   - '8'
   - '9'
+  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - ''
+  - LSHIFT
+  - Ctrl
+  - Alt
+  - Gui
+  - ''
+  - ''
+  - ''''
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - .
   - '0'
-  - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
+  - ''
+  SYM:
+  - ''
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
+  - ''
+  - LSHIFT
+  - Ctrl
+  - Alt
+  - Gui
+  - ''
+  - ''
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - (
+  - )
+  - _
+  - {type: held}
+  - ''
+  - ''
+  FUN:
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
   - Print Scrn
-  - Page Up
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
   - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
+  - ''
+  - LSHIFT
+  - Ctrl
   - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
+  - Gui
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
   - Pause Break
-  - Alt
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - APPLICATION
+  - ␣
+  - ↹
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   adjust:
   - Boot
   - ''
