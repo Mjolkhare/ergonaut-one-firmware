@@ -43,7 +43,7 @@ layers:
   - {t: BACKSPACE, h: NUM}
   - {t: ⌦, h: FUN}
   NAV:
-  - ''
+  - Boot
   - ''
   - ''
   - ''
@@ -86,7 +86,7 @@ layers:
   - BACKSPACE
   - ⌦
   MOUSE:
-  - ''
+  - Boot
   - ''
   - ''
   - ''
@@ -129,7 +129,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   MEDIA:
-  - ''
+  - Boot
   - ''
   - ''
   - ''
@@ -147,7 +147,7 @@ layers:
   - Gui
   - LSHIFT
   - ''
-  - ''
+  - EP TOG
   - ⏮️
   - VOLUME DOWN
   - ⏭️
@@ -159,11 +159,11 @@ layers:
   - '&u_to_U_FUN'
   - '&u_to_U_MEDIA'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: OUT TOG, s: Out USB}
+  - {t: BT 1, s: '&u_macro_u_bt_sel_0'}
+  - {t: BT 2, s: '&u_macro_u_bt_sel_1'}
+  - {t: BT 3, s: '&u_macro_u_bt_sel_2'}
+  - {t: BT 4, s: '&u_macro_u_bt_sel_3'}
   - ''
   - {type: held}
   - ''
@@ -183,7 +183,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Boot
   - ''
   - ;
   - '4'
@@ -226,7 +226,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Boot
   - ''
   - ':'
   - $
@@ -269,7 +269,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Boot
   - ''
   - F11
   - F4
@@ -299,47 +299,4 @@ layers:
   - ↹
   - ''
   - ''
-  - {type: held}
-  ADJUST:
-  - Boot
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Boot
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
-  - BT CLR
-  - Reset
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - {t: ▽, type: trans}
-  - ''
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   - {type: held}
