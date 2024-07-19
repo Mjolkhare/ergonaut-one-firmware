@@ -13,16 +13,16 @@ layers:
   - P
   - '['
   - '`'
-  - {t: A, h: Gui}
+  - {t: A, h: Ctrl}
   - {t: S, h: Alt}
-  - {t: D, h: Ctrl}
+  - {t: D, h: Gui}
   - {t: F, h: LSHIFT}
   - G
   - H
   - {t: J, h: Shift}
-  - {t: K, h: Ctrl}
+  - {t: K, h: Gui}
   - {t: L, h: Alt}
-  - {t: ;, h: Gui}
+  - {t: ;, h: Ctrl}
   - ''''
   - '-'
   - Z
@@ -40,14 +40,14 @@ layers:
   - {t: ␣, h: NAV}
   - {t: ↹, h: MOUSE}
   - {t: RETURN, h: SYM}
-  - {t: ⌫, h: NUM}
+  - {t: BACKSPACE, h: NUM}
   - {t: ⌦, h: FUN}
   NAV:
   - ''
   - ''
   - ''
   - ''
-  - ''
+  - '&u_to_U_BASE'
   - ''
   - Insert
   - Home
@@ -56,9 +56,9 @@ layers:
   - Page Up
   - ''
   - ''
-  - Gui
-  - Alt
   - Ctrl
+  - Alt
+  - Gui
   - Shift
   - ''
   - {t: Caps Word, s: CAPSLOCK}
@@ -70,8 +70,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&u_to_U_NUM'
+  - '&u_to_U_NAV'
   - ''
   - Sft+Gui+ Z
   - Gui+ V
@@ -90,7 +90,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&u_to_U_BASE'
   - ''
   - ''
   - ''
@@ -99,9 +99,9 @@ layers:
   - ''
   - ''
   - ''
-  - LEFT GUI
-  - Alt
   - Ctrl
+  - Alt
+  - Gui
   - LSHIFT
   - ''
   - ''
@@ -113,8 +113,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&u_to_U_SYM'
+  - '&u_to_U_MOUSE'
   - ''
   - Sft+Gui+ Z
   - Gui+ V
@@ -133,7 +133,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&u_to_U_BASE'
   - ''
   - ''
   - ''
@@ -142,9 +142,9 @@ layers:
   - ''
   - ''
   - ''
-  - LEFT GUI
-  - Alt
   - Ctrl
+  - Alt
+  - Gui
   - LSHIFT
   - ''
   - ''
@@ -156,8 +156,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&u_to_U_FUN'
+  - '&u_to_U_MEDIA'
   - ''
   - ''
   - ''
@@ -179,7 +179,7 @@ layers:
   - '9'
   - ']'
   - ''
-  - ''
+  - '&u_to_U_BASE'
   - ''
   - ''
   - ''
@@ -192,9 +192,9 @@ layers:
   - '='
   - ''
   - LSHIFT
-  - Ctrl
-  - Alt
   - Gui
+  - Alt
+  - Ctrl
   - ''
   - ''
   - ''''
@@ -203,8 +203,8 @@ layers:
   - '3'
   - \
   - ''
-  - ''
-  - ''
+  - '&u_to_U_NUM'
+  - '&u_to_U_NAV'
   - ''
   - ''
   - ''
@@ -222,7 +222,7 @@ layers:
   - (
   - '}'
   - ''
-  - ''
+  - '&u_to_U_BASE'
   - ''
   - ''
   - ''
@@ -235,9 +235,9 @@ layers:
   - +
   - ''
   - LSHIFT
-  - Ctrl
-  - Alt
   - Gui
+  - Alt
+  - Ctrl
   - ''
   - ''
   - '~'
@@ -246,8 +246,8 @@ layers:
   - '#'
   - '|'
   - ''
-  - ''
-  - ''
+  - '&u_to_U_SYM'
+  - '&u_to_U_MOUSE'
   - ''
   - ''
   - ''
@@ -265,7 +265,7 @@ layers:
   - F9
   - Print Scrn
   - ''
-  - ''
+  - '&u_to_U_BASE'
   - ''
   - ''
   - ''
@@ -278,9 +278,9 @@ layers:
   - SLCK
   - ''
   - LSHIFT
-  - Ctrl
-  - Alt
   - Gui
+  - Alt
+  - Ctrl
   - ''
   - ''
   - F10
@@ -289,8 +289,8 @@ layers:
   - F3
   - Pause Break
   - ''
-  - ''
-  - ''
+  - '&u_to_U_FUN'
+  - '&u_to_U_MEDIA'
   - ''
   - ''
   - ''
