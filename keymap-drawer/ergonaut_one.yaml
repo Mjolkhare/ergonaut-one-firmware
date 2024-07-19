@@ -300,7 +300,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  adjust:
+  ADJUST:
   - Boot
   - ''
   - ''
@@ -337,9 +337,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
-  - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
