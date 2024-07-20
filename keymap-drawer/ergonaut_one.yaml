@@ -36,13 +36,13 @@ layers:
   - .
   - /
   - \
-  - {t: Esc, h: MEDIA}
-  - {t: ␣, h: NAV}
-  - {t: ↹, h: MOUSE}
-  - {t: RETURN, h: SYM}
-  - {t: BACKSPACE, h: NUM}
-  - {t: ⌦, h: FUN}
-  NAV:
+  - {t: Esc, h: MediaMo}
+  - {t: ␣, h: NavMo}
+  - {t: ↹, h: MouseMo}
+  - {t: RETURN, h: SymMo}
+  - {t: BACKSPACE, h: NumMo}
+  - {t: ⌦, h: FunMo}
+  NavMo:
   - Boot
   - ''
   - ''
@@ -85,7 +85,50 @@ layers:
   - ⏎
   - BACKSPACE
   - ⌦
-  MOUSE:
+  NAV:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - '&u_to_U_BASE'
+  - ''
+  - Insert
+  - Home
+  - ↑
+  - End
+  - Page Up
+  - ''
+  - ''
+  - Ctrl
+  - Alt
+  - Gui
+  - Shift
+  - ''
+  - {t: Caps Word, s: CAPSLOCK}
+  - ←
+  - ↓
+  - →
+  - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&u_to_U_NUM'
+  - '&u_to_U_NAV'
+  - ''
+  - Sft+Gui+ Z
+  - Gui+ V
+  - Gui+ C
+  - Gui+ X
+  - Gui+ Z
+  - ''
+  - ''
+  - ''
+  - ''
+  - ⏎
+  - BACKSPACE
+  - ⌦
+  MouseMo:
   - Boot
   - ''
   - ''
@@ -128,7 +171,9 @@ layers:
   - '&mkp MB2'
   - '&mkp MB1'
   - '&mkp MB3'
-  MEDIA:
+  MOUSE: [Boot, '', '', '', '&u_to_U_BASE', '', '', '', KP 8, '', '', '', '', Ctrl, Alt, Gui, LSHIFT, '', '', KP 4, KP 2, KP 6, '', '', '', '', '', '&u_to_U_SYM',
+    '&u_to_U_MOUSE', '', Sft+Gui+ Z, Gui+ V, Gui+ C, Gui+ X, Gui+ Z, '', '', '', '', '&mkp MB2', '&mkp MB1', '&mkp MB3']
+  MediaMo:
   - Boot
   - ''
   - ''
@@ -171,7 +216,50 @@ layers:
   - STOP
   - ⏯
   - MUTE
-  NUM:
+  MEDIA:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - '&u_to_U_BASE'
+  - ''
+  - ''
+  - ''
+  - VOLUME UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctrl
+  - Alt
+  - Gui
+  - LSHIFT
+  - ''
+  - EP TOG
+  - ⏮️
+  - VOLUME DOWN
+  - ⏭️
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&u_to_U_FUN'
+  - '&u_to_U_MEDIA'
+  - ''
+  - {t: OUT TOG, s: Out USB}
+  - {t: BT 1, s: '&u_macro_u_bt_sel_0'}
+  - {t: BT 2, s: '&u_macro_u_bt_sel_1'}
+  - {t: BT 3, s: '&u_macro_u_bt_sel_2'}
+  - {t: BT 4, s: '&u_macro_u_bt_sel_3'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - STOP
+  - ⏯
+  - MUTE
+  NumMo:
   - ''
   - '['
   - '7'
@@ -214,7 +302,9 @@ layers:
   - ''
   - {type: held}
   - ''
-  SYM:
+  NUM: ['', '[', '7', '8', '9', ']', '', '&u_to_U_BASE', '', '', '', Boot, '', ;, '4', '5', '6', '=', '', LSHIFT, Gui, Alt, Ctrl, '', '', '''', '1', '2', '3', \,
+    '', '&u_to_U_NUM', '&u_to_U_NAV', '', '', '', ., '0', '-', '', '', '']
+  SymMo:
   - ''
   - '{'
   - '&'
@@ -257,7 +347,9 @@ layers:
   - {type: held}
   - ''
   - ''
-  FUN:
+  SYM: ['', '{', '&', '*', (, '}', '', '&u_to_U_BASE', '', '', '', Boot, '', ':', $, '%', ^, +, '', LSHIFT, Gui, Alt, Ctrl, '', '', '~', '!', '@', '#', '|', '', '&u_to_U_SYM',
+    '&u_to_U_MOUSE', '', '', '', (, ), _, '', '', '']
+  FunMo:
   - ''
   - F12
   - F7
@@ -300,3 +392,5 @@ layers:
   - ''
   - ''
   - {type: held}
+  FUN: ['', F12, F7, F8, F9, Print Scrn, '', '&u_to_U_BASE', '', '', '', Boot, '', F11, F4, F5, F6, SLCK, '', LSHIFT, Gui, Alt, Ctrl, '', '', F10, F1, F2, F3, Pause
+      Break, '', '&u_to_U_FUN', '&u_to_U_MEDIA', '', '', '', APPLICATION, ␣, ↹, '', '', '']
