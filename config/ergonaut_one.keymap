@@ -256,19 +256,19 @@
         NumMo {
             label = "NumMo";
             bindings = <
-&none  &kp LBKT  &kp N7  &kp N8   &kp N9  &kp RBKT   &none  &u_to_U_BASE  &none        &none     &none      &bootloader
-&none  &kp SQT   &kp N4  &kp N5   &kp N6  &kp EQUAL  &none  &kp LSHIFT    &kp LGUI     &kp LALT  &kp LCTRL  &none
-&none  &kp APOS  &kp N1  &kp N2   &kp N3  &kp BSLH   &none  &u_to_U_NUM   &u_to_U_NAV  &none     &none      &none
-                         &kp DOT  &kp N0  &kp MINUS  &none  &none         &none
+&none  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT   &none  &u_to_U_BASE  &none        &none     &none      &bootloader
+&none  &kp SQT    &kp N4  &kp N5   &kp N6  &kp EQUAL  &none  &kp LSHIFT    &kp LGUI     &kp LALT  &kp LCTRL  &none
+&none  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH   &none  &u_to_U_NUM   &u_to_U_NAV  &none     &none      &none
+                          &kp DOT  &kp N0  &kp MINUS  &none  &none         &none
             >;
         };
 
         NUM {
             bindings = <
-&none  &kp LBKT  &kp N7  &kp N8   &kp N9  &kp RBKT   &none  &u_to_U_BASE  &none        &none     &none      &bootloader
-&none  &kp SQT   &kp N4  &kp N5   &kp N6  &kp EQUAL  &none  &kp LSHIFT    &kp LGUI     &kp LALT  &kp LCTRL  &none
-&none  &kp APOS  &kp N1  &kp N2   &kp N3  &kp BSLH   &none  &u_to_U_NUM   &u_to_U_NAV  &none     &none      &none
-                         &kp DOT  &kp N0  &kp MINUS  &none  &none         &none
+&none  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT   &none  &u_to_U_BASE  &none        &none     &none      &bootloader
+&none  &kp SQT    &kp N4  &kp N5   &kp N6  &kp EQUAL  &none  &kp LSHIFT    &kp LGUI     &kp LALT  &kp LCTRL  &none
+&none  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH   &none  &u_to_U_NUM   &u_to_U_NAV  &none     &none      &none
+                          &kp DOT  &kp N0  &kp MINUS  &none  &none         &none
             >;
 
             label = "Num";
