@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - '`'
+  - \
   - {t: A, h: Ctrl}
   - {t: S, h: Alt}
   - {t: D, h: Gui}
@@ -24,7 +24,7 @@ layers:
   - {t: L, h: Alt}
   - {t: ;, h: Ctrl}
   - ''''
-  - '-'
+  - ''
   - {t: Z, h: BUTTON}
   - {t: X, h: Alt}
   - C
@@ -35,7 +35,7 @@ layers:
   - ','
   - {t: ., h: Alt}
   - {t: /, h: BUTTON}
-  - \
+  - ''
   - {t: Esc, h: MediaMo}
   - {t: ␣, h: NavMo}
   - {t: ↹, h: MouseMo}
