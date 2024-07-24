@@ -25,16 +25,16 @@ layers:
   - {t: ;, h: Ctrl}
   - ''''
   - '-'
-  - Z
-  - X
+  - {t: Z, h: BUTTON}
+  - {t: X, h: Alt}
   - C
   - V
   - B
   - N
   - M
   - ','
-  - .
-  - /
+  - {t: ., h: Alt}
+  - {t: /, h: BUTTON}
   - \
   - {t: Esc, h: MediaMo}
   - {t: ␣, h: NavMo}
@@ -394,3 +394,46 @@ layers:
   - {type: held}
   FUN: ['', F12, F7, F8, F9, Print Scrn, '', '&u_to_U_BASE', '', '', '', Boot, '', F11, F4, F5, F6, SLCK, '', LSHIFT, Gui, Alt, Ctrl, '', '', F10, F1, F2, F3, Pause
       Break, '', '&u_to_U_FUN', '&u_to_U_MEDIA', '', '', '', APPLICATION, ␣, ↹, '', '', '']
+  BUTTON:
+  - ''
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - Sft+Gui+ Z
+  - Sft+Gui+ Z
+  - Gui+ V
+  - Gui+ C
+  - Gui+ X
+  - Gui+ Z
+  - ''
+  - ''
+  - Ctrl
+  - Alt
+  - Gui
+  - Shift
+  - ''
+  - ''
+  - Shift
+  - Gui
+  - Alt
+  - Ctrl
+  - ''
+  - ''
+  - {t: Gui+ Z, type: held}
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - Sft+Gui+ Z
+  - Sft+Gui+ Z
+  - Gui+ V
+  - Gui+ C
+  - Gui+ X
+  - Gui+ Z
+  - ''
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&mkp MB3'
